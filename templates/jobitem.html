@@ -1,0 +1,17 @@
+<div class="job-box p-4 d-flex align-items-center justify-content-between">
+
+    <div>
+      <h4 class="text-secondary">{{job['name']}}</h4>
+      <h6>{{job['Location']}}</h6>
+      {% if 'salary' in job %}
+      <h6>{{job['salary']}}</h6>
+      {% endif %}
+    </div>
+    <div><button class="btn btn-sm btn-primary">Apply</button>
+    
+    </div>  
+  
+  
+    </div>
+
+    <hr>
