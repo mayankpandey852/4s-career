@@ -45,7 +45,7 @@ Jobs = [
 def hello():
  return render_template('index.html',
                        jobs = Jobs,
-                       company_name="4S" 
+                       company_name="4S Tech" 
                       )
 
 @app.route("/api/jobs")
